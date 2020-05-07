@@ -22,7 +22,7 @@ idade: int = input('qual a sua idade?\n') # a variavel idade é, obrigatóriamen
 print('ola' + nome) # utilizando um + é possivel concatenar 2 strings
 print('você tem', idade, 'anos') # com a , podemos concatenar quaisquer tipos de dados
 
-# quando é preciso várias concatenações, o ideal é utilizar a função .format(), com ela utilizamos dentro da string o sinal
+# quando é preciso várias concatenações, o ideal é utilizar o método .format(), com ela utilizamos dentro da string o sinal
 # de {}, que será substituido ao final pelo dado desejado, inserido dentro do .format() em ordem de aparição
 
 print('ola {} você tem {} anos'.format(nome,idade))
