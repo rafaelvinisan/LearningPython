@@ -23,7 +23,7 @@ print(f'len(s1): {len(s1)}\n' # a função len retorna o numero de caracteres na
       f's1.find(\'Pyt\'): {s1.find("Pyt")}\n' # retorna a posição em que o caractere ou a sequencia de caracteres começa pela primeira vez
       f's1.find("oloquinho meu"): {s1.find("oloquinho meu")}\n' # caso o caractere ou sequencia não exista na string, retorna -1
       f'"ola" in s1: {"ola" in s1}\n' # retorna um boolean indicando se existe ou não os caracteres na string
-      f's1 in "meus amigos, ola Pythoncrazy": {s1 in "meus amigos, ola Pythoncrazy"}\n' # quando a string fica antes do 'in', retornara True caso alguma parte da sequencia de caracteres aprsentada a seguir corresponder exatamente à string
+      f's1 in "meus amigos, ola Pythoncrazy": {s1 in "meus amigos, ola Pythoncrazy"}\n' # retorna um boolean indicando se existe ou não a string indicada na sequencia de caracteres fornecida
       f's1.replace("ola", "colé"): {s1.replace("ola", "colé")}\n' # Substitui uma sequencia de caracteres por outra
       f's1.upper: {s1.upper()}\n' # Coloca toda String em maiusculo
       f's1.lower: {s1.lower()}\n' # Todas letras em minusculo
