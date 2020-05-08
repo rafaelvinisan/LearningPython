@@ -15,7 +15,7 @@ print('linha')
 # antes que ele insira o dado
 
 nome = input('digite um nome: ') # o nome digitado será armazenado na variavel "nome", note que a variavel nome não foi tipada, logo pode receber qualquer tipo de dado
-idade: int = input('qual a sua idade?\n') # a variavel idade é, obrigatóriamente, um numero inteiro
+idade: int = int(input('qual a sua idade?\n')) # a variavel idade é, obrigatóriamente, um numero inteiro
 
 # dados dentro de um print() podem ser concatenados de 3 maneiras diferentes apresentadas a seguir
 
