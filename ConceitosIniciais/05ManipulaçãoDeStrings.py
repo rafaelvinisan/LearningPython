@@ -1,8 +1,10 @@
 # Uma String é uma sequencia de caracteres sendo que o primeiro caractere ocupa o espaço 0 da String
 
 # Fatiamento:
-a = 'a'
 s1 = 'ola Python'
+print(f'{s1:>20}') # o ':>20', alinha a string a direita de 20 espaços
+print(f'{s1:^15}') # usando o :^15 o texto será alinhado ao centro em 15 espaços
+print(f'{s1:<}')  # com o > o alinhamento é feito normalmente, à esquerda
 print(s1[0]) # mostra o caractere da posição 0
 
 # podemos fatiar uma string usando dentro do colchete [mostrar dessa posição : até a posição anterior a esta]
@@ -35,3 +37,4 @@ s2 = "   super fantastico amigo    "
 print(f's2 == {s2}')
 print(f's2.strip(): {s2.strip()}') # remove os espaços antes e depois da string
 print(f's2.split: {s2.split()}') # separa a string por palavras, por padrão o split quebra a string quando encontra um ' ', entretando o caractere pode ser especificado passado por parâmetro
+
