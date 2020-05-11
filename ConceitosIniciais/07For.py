@@ -19,4 +19,10 @@ soma = 0
 for c in range (0,5):
     soma += int(input("insira um inteiro: "))
     print(f'apenas 1 valor fornecido, seu valor é: {soma}' if (c+1) == 1 else f'{c+1} valores fornecidos, a soma deles '
+    
                                                                               f'é igual a {soma}')
+palavra = 'bola'
+print("letras da palavra")
+for posicao, letra in enumerate(palavra): # o for de uma string retorna cada caractere da mesma, o enumerate torna possivel vc saber
+                                            # qual a posição deste caractere, como no exemplo a seguir
+    print(f'o {posicao+1}º caractere é: {letra}')
