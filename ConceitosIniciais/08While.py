@@ -29,3 +29,12 @@ while True:
     elif resp == 'n':
         print('sua resposta foi: Não...')
         break
+
+# Calculando fatorial com while
+
+fat = 1
+n = int(input('deseja saber o fatorial de qual numero? '))
+while n > 1:
+    fat *= n
+    n -=1
+print(f'fatorial igual a {fat}')
