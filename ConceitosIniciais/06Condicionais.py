@@ -9,8 +9,7 @@ if idade >= 18:  # ao fim da condição usa-se :
 else:
     print('menor de idade')
 
-# existe em Python o condicional 'elif' (concatenação de else + if) para evitar que você precise digitar um else: if(condição):
-# quando quiser adicionar uma nova condição
+# existe em Python o condicional 'elif' (concatenação de else + if) para evitar que você precise digitar um else segido de if:
 
 if 0 < idade < 12:
     print('criança')
@@ -36,10 +35,14 @@ print("seu nome é curto" if len(nome) < 4 else "seu nome não é curto")
 
 # para adicionar uma nova condição ao seu if ou elif, utiliza-se 'and' para 'e' e 'or' para 'ou'
 
-if nome.endswith('a') and len(nome) > 3: # o método endswith retorna True se a string terminar com o caractere
-                                         # passado por parametro
+if nome.endswith('a') and len(nome) > 3:  # o método endswith retorna True se a string terminar com o caractere
+                                              # passado por parametro
     print('Seu nome termina com a letra A, mas você não se chama Ana')
 
 elif nome.endswith('o') or nome.endswith('l') or nome.endswith('e'):
 
     print('seu nome termina com o, l ou e')
+
+else:
+
+    print('que belo nome!')
