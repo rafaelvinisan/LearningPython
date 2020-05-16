@@ -3,9 +3,8 @@
 print('hello World')
 print("ola Mundo")
 
-# O comando print, salta uma linha ao seu fim automaticamente, entretando podemos definir um "final alternativo" para
-# ser executado ao fim, utilizando o ", end='' ", onde o texto dentro das aspas simples será mostrado ao fim do comando
-# print ao inves de saltar linha
+# O comando print, salta uma linha ao seu fim automaticamente, contudo podemos definir um "final alternativo" para
+# ser executado ao fim, utilizando o ", end='' ", onde o texto dentro das aspas simples será mostrado ao fim da função print ao inves de saltar linha
 
 print('na mesma', end=' ')
 print('linha')
