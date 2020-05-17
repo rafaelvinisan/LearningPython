@@ -16,7 +16,7 @@ sanduiche = ('pão', 'hamburger vegetariano', 'batata palha', 'queijo', 'picles'
 print(sorted(sanduiche)) # retorna os itens da tupla em ordem alfabética (como a tupla é imutável, o retorno é feito em
                             # forma de lista (estrutura composta mutável), e não de tupla
 
-acompanhamentos = ('ketchup', 'suco de laranja', 'batata frita')
+acompanhamentos = ('maionese temperada', 'suco de laranja', 'batata frita')
 
 lancheCompleto = sanduiche + acompanhamentos # uma tupla pode ser formada da união de duas ou mais tuplas
 print(lancheCompleto)

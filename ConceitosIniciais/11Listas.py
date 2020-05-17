@@ -1,8 +1,8 @@
 # As listas são variaveis compostas mutaveis e ordenadas, ou seja, podemos modificar e acessar posições exatas
 # as listas são denotadas por colchetes
 
-lista = [] # Pode ser inicializada, vazia, assim
-lista1 = list() # mas também podemos inicializar uma lista vazia desta maneira
+lista = []  # Pode ser inicializada, vazia, assim
+lista1 = list()  # mas também podemos inicializar uma lista vazia desta maneira
 lista2 = ['Padrinhos mágicos', 'Tres espiãs demais', 'As aventuras de Jackie Chan']
 print('lista2 = ', lista2)
 

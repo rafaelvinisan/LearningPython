@@ -3,9 +3,8 @@
 
 print('contando de 0 a 10:')
 for c in range(0, 11):
-    print(c, end=(
-        ', ' if c != 10 else '.\n'))  # printa o numero c na tela e caso ele seja diferente de 10 adiciona ', ' antes de printar o próximo
-    # caso seja 10 irá saltar uma linha
+    print(c, end=(', ' if c != 10 else '.\n'))  # printa o numero c na tela e caso ele seja diferente de 10 adiciona ', ' antes de printar o próximo
+                                                # caso seja 10 irá saltar uma linha
 
 print('numeros pares de 0 a 10')
 for c in range(0, 11, 2):  # esse numero 2 adicionado fará com que o programa conte de 2 em 2 números

@@ -2,7 +2,6 @@
 
 contador = 0
 print('contando de 0 a 10 com while')
-
 while contador <= 10:
     print(contador, end=(', ' if contador != 10 else '.\n'))
     contador += 1
