@@ -9,7 +9,7 @@ O pacote 'Pacote' é utilizado e importado dentro do arquivo '16Modularização.
 
 O arquivo criado em '18Arquivos.py' estará localizado dentro de ConceitosIniciais
 
-A principal fonte de todos os códigos neste repositório é o completissimo curso de python do canal curso em video:
+A principal base de todos os códigos neste repositório é o completissimo curso de python do canal curso em video:
 https://www.youtube.com/playlist?list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0
 
 Que Jah abençoe o Gustavo Guanabara 
