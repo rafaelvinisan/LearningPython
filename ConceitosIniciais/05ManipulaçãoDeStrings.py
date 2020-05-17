@@ -5,6 +5,12 @@ s1 = 'ola Python'
 print(f'{s1:>20}')  # o ':>20', alinha a string a direita dentro de 20 espaços
 print(f'{s1:^15}')  # usando o :^15 o texto será alinhado ao centro em 15 espaços
 print(f'{s1:<}')  # com o > o alinhamento é feito normalmente, à esquerda
+# O alihamento pode ser feito usando os métodos center, ljust e rjust também
+
+# Repetição
+print('-'*30) # o caractere - será printado 30 vezes na tela
+print('repetição'.center(30))
+print('-'*30)
 
 # Fatiamento:
 print(s1[0])  # mostra o caractere da posição 0
