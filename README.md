@@ -2,7 +2,7 @@
 iniciantePY
 
 Os arquivos dentro de ConceitosIniciais estão separados pela sequencia que considerei mais adequada,
-todos os códigos possuem comentários sobre o que está sendo feito e o resultado esperado quando se roda o código.
+todos os códigos possuem comentários sobre o que está sendo feito e o resultado esperado quando rodado.
 Recomendo que rode o código a medida que lê o conteudo dos arquivos para entender o que está acontecendo
 
 O pacote 'Pacote' é utilizado e importado dentro do arquivo '16Modularização.py'
